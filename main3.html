@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style-size.css"/>
+  <link rel="stylesheet" type="text/css" href="style-layout.css"/>
+  <link rel="stylesheet" type="text/css" href="style-presentation.css"/>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a id="logo" href="main.html"> SM Bookstore </a>
+      <span class="right" style="padding: 30px 10px;">
+        <a href="login.html" target="display_area">로그인</a>
+        <a href="signup.html" target="_blank">회원가입</a>
+      </span>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="domestic_books.html" target="display_area">국내도서14</a></li>
+        <li><a href="foreign_books.html" target="display_area">해외번역도서</a></li>
+        <li><a href="music.html" target="display_area">음반</a></li>
+        <li class="right"><a href="order.html" target="display_area">주문하기</a></li>
+      </ul>
+    </nav>
+    <hr />
+    <article class="left">
+      <iframe name="display_area" src="book.jpg" width="1000px" height="700px"></iframe>
+    </article>
+    <aside class="right">
+      <button id="all" style="width:85px;" disabled>전체</button><br>
+      <button id="best" style="width:85px" disabled>베스트셀러</button><br>
+      <button id="recommend" style="width:85px" disabled>추천도서</button><br>
+      <button id="memo" style="width:85px" disabled>메모하기</button><br>
+      <button id="location" style="width:85px" disabled>현재 위치</button>
+    </aside>
+    <footer>
+      <div id="copyright">
+        Copyright (c) 2016 SM Bookstore Inc. All rights reserved
+  </div>
+    <div id="SNS">
+        <a href="http://facebook.com" target="_blank">
+          <img src="facebook.png" height="32" alt="facebook">
+        </a>
+        <a href="http://twitter.com" target="_blank">
+          <img src="twitter.png" height="32" target="_blank" alt="twitter">
+        </a>
+        <a href="http://plus.google.com" target="_blank">
+          <img src="google.jpg" height="32" target="_blank" alt="google">
+        </a>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
